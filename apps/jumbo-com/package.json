@@ -1,0 +1,27 @@
+{
+  "name": "jumbo-com",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "nx": {
+    "targets": {
+      "build": {
+        "outputs": [
+          "{projectRoot}/.output",
+          "{projectRoot}/.nuxt"
+        ]
+      }
+    },
+    "tags": [
+      "scope:jumbo-com"
+    ],
+    "implicitDependencies": [
+      "tag:scope:jumbo-com"
+    ]
+  }
+}

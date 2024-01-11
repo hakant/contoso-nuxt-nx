@@ -1,0 +1,28 @@
+{
+  "name": "stores-e2e",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/domains/stores-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "libs/domains/stores-e2e/cypress.config.ts",
+        "devServerTarget": "jumbo-com:dev",
+        "baseUrl": "http://localhost:3000",
+        "testingType": "e2e",
+        "skipServe": true,
+        "headed": false
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/domains/stores-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["stores"]
+}
