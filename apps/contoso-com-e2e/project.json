@@ -1,14 +1,14 @@
 {
-    "name": "jumbo-com-e2e",
+    "name": "contoso-com-e2e",
     "$schema": "../../node_modules/nx/schemas/project-schema.json",
-    "sourceRoot": "apps/jumbo-com-e2e/src",
+    "sourceRoot": "apps/contoso-com-e2e/src",
     "projectType": "application",
     "targets": {
       "e2e": {
         "executor": "@nx/cypress:cypress",
         "options": {
-          "cypressConfig": "apps/jumbo-com-e2e/cypress.config.ts",
-          "devServerTarget": "jumbo-com:dev",
+          "cypressConfig": "apps/contoso-com-e2e/cypress.config.ts",
+          "devServerTarget": "contoso-com:dev",
           "baseUrl": "http://localhost:3000",
           "testingType": "e2e",
           "skipServe": true,
@@ -19,10 +19,10 @@
         "executor": "@nx/eslint:lint",
         "outputs": ["{options.outputFile}"],
         "options": {
-          "lintFilePatterns": ["apps/jumbo-com-e2e/**/*.{js,ts}"]
+          "lintFilePatterns": ["apps/contoso-com-e2e/**/*.{js,ts}"]
         }
       }
     },
     "tags": [],
-    "implicitDependencies": ["jumbo-com"]
+    "implicitDependencies": ["contoso-com"]
   }

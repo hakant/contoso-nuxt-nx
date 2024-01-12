@@ -23,5 +23,5 @@
       "outputs": ["{options.outputFile}"]
     }
   },
-  "tags": ["scope:jumbo-com"]
+  "tags": ["scope:contoso-com"]
 }

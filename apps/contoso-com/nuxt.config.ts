@@ -47,7 +47,7 @@ export default defineNuxtConfig({
     '../../libs/domains/stores/src/',
     '../../libs/domains/accounts/src/',
     '../../libs/domains/recipes/src/',
-    // '@jumbo/stores/nuxt',
-    // '@jumbo/accounts',
+    // '@contoso/stores/nuxt',
+    // '@contoso/accounts',
   ],
 });

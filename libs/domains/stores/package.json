@@ -1,5 +1,5 @@
 {
-  "name": "@jumbo/stores",
+  "name": "@contoso/stores",
   "version": "0.0.1",
   "dependencies": {},
   "main": "./index.js",

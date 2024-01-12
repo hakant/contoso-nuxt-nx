@@ -15,11 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@jumbo/accounts": ["libs/domains/accounts/src/index.ts"],
-      "@jumbo/recipes": ["libs/domains/recipes/src/index.ts"],
-      "@jumbo/shared": ["libs/domains/shared/src/index.ts"],
-      "@jumbo/stores": ["libs/domains/stores/src/index.ts"],
-      "@jumbo/stores/nuxt": ["libs/domains/stores/src/"]
+      "@contoso/accounts": ["libs/domains/accounts/src/index.ts"],
+      "@contoso/recipes": ["libs/domains/recipes/src/index.ts"],
+      "@contoso/shared": ["libs/domains/shared/src/index.ts"],
+      "@contoso/stores": ["libs/domains/stores/src/index.ts"],
+      "@contoso/stores/nuxt": ["libs/domains/stores/src/"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,5 +1,5 @@
 {
-  "name": "@jumbo/accounts",
+  "name": "@contoso/accounts",
   "version": "0.0.1",
   "main": "./src/nuxt.config.ts",
   "exports": {

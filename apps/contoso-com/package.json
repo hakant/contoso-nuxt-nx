@@ -1,5 +1,5 @@
 {
-  "name": "jumbo-com",
+  "name": "contoso-com",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -18,10 +18,10 @@
       }
     },
     "tags": [
-      "scope:jumbo-com"
+      "scope:contoso-com"
     ],
     "implicitDependencies": [
-      "tag:scope:jumbo-com"
+      "tag:scope:contoso-com"
     ]
   }
 }

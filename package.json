@@ -1,10 +1,10 @@
 {
-  "name": "@jumbo/source",
+  "name": "@contoso/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx build jumbo-com",
-    "dev": "nx dev jumbo-com"
+    "build": "nx build contoso-com",
+    "dev": "nx dev contoso-com"
   },
   "private": true,
   "dependencies": {},
